@@ -1,0 +1,20 @@
+{
+  "name": "curlingtime",
+  "version": "1.0.0",
+  "description": "curling timer for timekeeping",
+  "homepage": "https://github.com/katestrophic/curlingtime#readme",
+  "bugs": {
+    "url": "https://github.com/katestrophic/curlingtime/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katestrophic/curlingtime.git"
+  },
+  "license": "ISC",
+  "author": "kate",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
