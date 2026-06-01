@@ -1,0 +1,44 @@
+# === Depedencies and Modules
+node_modules/
+
+
+# === Build Output
+.cache/
+build/
+dist/
+temp/
+tmp/
+
+
+# === Logs
+logs
+*.log
+
+
+# === Testing
+.nyc_output/
+coverage/
+
+
+# === Environment
+.env
+.env.*
+
+
+# === Program Specific
+*.tsbuildinfo
+
+
+# === IDE Specific
+.vscode/
+
+
+# === Device Specific
+Desktop.ini
+.DS_Store
+Thumbs.db
+*~
+
+
+# === Exceptions
+

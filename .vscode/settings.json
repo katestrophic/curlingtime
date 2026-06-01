@@ -1,0 +1,48 @@
+{
+  "explicitFolding.rules": {
+    "javascript": [
+      { "begin": "{", "end": "}" },
+      { "begin": "(", "end": ")" },
+      { "begin": "`", "end": "`" },
+      { "foldLastLine": true }
+    ],
+    "css": [
+      { "begin": "{", "end": "}" },
+      { "begin": "/*", "end": "*/" },
+      { "begin": "`", "end": "`" },
+      { "foldLastLine": true }
+    ],
+    "json": [
+      { "begin": "{", "end": "}" },
+      { "begin": "(", "end": ")" },
+      { "begin": "[", "end": "]" },
+      { "begin": "`", "end": "`" },
+      { "foldLastLine": true }
+    ],
+    "html": [
+      { "begin": "<a", "end": "</a>" },
+      { "begin": "<p", "end": "</p>" },
+      { "begin": "<!--", "end": "-->" },
+      { "begin": "<li", "end": "</li>" },
+      { "begin": "<ol", "end": "</ol>" },
+      { "begin": "<tr", "end": "</tr>" },
+      { "begin": "<td", "end": "</td>" },
+      { "begin": "<th", "end": "</th>" },
+      { "begin": "<ul", "end": "</ul>" },
+      { "begin": "<div", "end": "</div>" },
+      { "begin": "<nav", "end": "</nav>" },
+      { "begin": "<aside", "end": "</aside>" },
+      { "begin": "<table", "end": "</table>" },
+      { "begin": "<button", "end": "</button>" },
+      { "begin": "<section", "end": "</section>" },
+      { "begin": "`", "end": "`" },
+      { "foldLastLine": true }
+    ]
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [{
+      "scope": "comment.line.double-slash",
+      "settings": { "foreground": "#626262" }
+    }]
+  }
+}
